@@ -1,0 +1,91 @@
+button{
+    color:white;
+    padding: 10px;
+    font-size: 16pt;
+    text-align: center;
+    border: none;
+    margin:5px;
+    transition: 1000ms all ease
+
+
+
+}   
+button:hover{
+    transform: scale(1.3);
+}
+
+button:hover{
+    color:red;
+}
+/*este es un selector mixto, etiqueta y clase*/
+button.round{
+border-radius: 25px
+}
+button.success{
+background-color:greenyellow;
+
+}
+button.success:hover{
+color:red;
+}
+
+
+button.success-outline{
+background-color:rgba(0,0, 0, 0);
+border:2px solid greenyellow;
+color:greenyellow;
+border-radius:5px;
+padding:7px;
+
+}
+button.success-shadow{
+background-color:greenyellow;
+border-radius:5px;
+border-bottom: 2px solid rgb(63, 100, 8);
+padding-bottom: 8px greenyellow;
+
+
+}
+button.warning{
+background-color:orange;
+}
+button.warning:hover{
+color:red;
+
+}
+
+button.warning-outline{
+background-color:rgba(0,0, 0, 0);
+border:2px solid orange;
+color:orange;
+border-radius:5px;
+padding:7px;   
+}
+button.warning-shadow{
+background-color: orange;
+border-radius: 5px;
+border-bottom:2px solid rgb(180, 122, 15);
+padding-bottom:8px orange;
+}
+
+button.danger{
+background-color: red;
+
+}
+button.danger:hover{
+color:red;
+}
+button.danger-outline{
+background-color:rgba(0,0, 0, 0);
+border:2px solid red;
+color:red;
+border-radius:5px;
+padding:7px;
+}
+button.danger-shadow{
+background-color:red;
+border-radius: 5px;
+border-bottom:2px solid rgb(153, 32, 32);
+padding-bottom: 8px solid red;
+
+}

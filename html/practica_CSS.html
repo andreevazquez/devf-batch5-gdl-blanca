@@ -5,60 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>CSS practica</title>
+<link rel="stylesheet" href="practica_css.css">
 </head>
 <body>
-
-    <style>
-        button{
-            color:white;
-            padding: 10px;
-            font-size: 16pt;
-            text-align: center;
-            border: none;
-    
-        
-        }   
-        /*este es un selector mixto, etiqueta y clase*/
-    button.round{
-        border-radius: 25px
-    }
-    button.success{
-        background-color:greenyellow;
-
-    }
-    button.success-outline{
-        background-color:rgba(0,0, 0, 0);
-        border:2px solid greenyellow;
-        color:greenyellow;
-        border-radius:5px;
-        padding:7px;
-
-    }
-    button.warning{
-        background-color:orange;
-    }
-
-    button.warning-outline{
-        background-color:rgba(0,0, 0, 0);
-        border:2px solid orange;
-        color:orange;
-        border-radius:5px;
-        padding:7px;   
-    }
-    
-    button.danger{
-        background-color: red;
-
-    }
-    button.danger-outline{
-        background-color:rgba(0,0, 0, 0);
-        border:2px solid red;
-        color:red;
-        border-radius:5px;
-        padding:7px;
-    }
-</style>
-<nav>
+    <nav>
     <h3>Práctica de CSS</h3>
 </nav>
 <button class="success"> SUCCESS</button>
@@ -70,6 +20,8 @@
 <button class="success round">SUCCESS</button>
 <button class="warning round">WARNING</button>
 <button class="danger round">DANGER</button>
-<button>BUTTON</button>
+<button class="success-shadow">SUCCESS</button>
+<button class="warning-shadow">WARNING</button>
+<button class="danger-shadow">DANGER</button>
 </body>
 </html>
