@@ -1,0 +1,85 @@
+body{
+    background-color: olive;
+    margin:0px;
+}
+nav{
+    background-color: whitesmoke;
+    border-bottom: 4px solid lightgrey;
+    padding:12px;
+}
+.left-nav{
+  display: inline-block;
+}
+.home-banner i{
+    display:none;
+}
+.left-nav i{
+  display: inline-block;
+}
+.left-nav i, .home-banner i{
+    color: orangered
+}
+.left-nav div, .home-banner div {
+    display:inline-block;
+  
+}
+h1,h2,h3,h4{
+    margin: 0px;
+    text-transform: uppercase;
+    text-align: center;
+}
+.right-nav{ 
+  margin-right: 10px;
+  float: right;
+}
+.right-nav i{
+    margin:10px;
+    color:grey;
+
+}
+.center{
+    text-align: center;
+}
+.right-nav, .home-banner{
+    margin-right: 10px;
+    color: lightgrey;
+}
+.right-nav i:hover{
+    color: aquamarine
+}
+.home-banner h1, .home-banner h2{
+    text-align: center;
+}
+.home-banner h1{
+    color:greenyellow;
+}
+.home-banner h2{
+    color: white;
+}
+.home-banner{
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.centrado{
+    margin-right: auto;
+    margin-left: auto;
+}
+.orange-banner{
+    background-color: rgb(212, 143, 14);
+    color:white;
+    padding: 16px;
+    width: 80%;
+    border-radius:2px;
+}
+/*      
+    SCREEN SIZE 720px (MOBILE)
+*/
+@media screen and (max-width:480px){
+    .left-nav{
+        display:none;
+    }
+    .home-banner i{
+        display:inline-block;
+    }
+}
