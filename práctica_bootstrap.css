@@ -1,0 +1,12 @@
+div{
+    background-color: gainsboro;
+} 
+.container{
+    width: 70%;
+}
+.thead-head{
+background-color:chartreuse;
+}
+#imagenes{
+    resize: horizontal;
+}
