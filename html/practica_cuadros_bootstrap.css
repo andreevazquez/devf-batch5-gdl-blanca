@@ -1,0 +1,16 @@
+
+.rowh50{
+    height: 50vh;
+}
+.rowh25{
+    height: 25vh;
+}
+
+.line{
+    border: 0.5px solid black;
+    background-color: green;
+}
+.onlyline{
+    border-left: 0.5px solid black;
+    background-color: green;
+}
