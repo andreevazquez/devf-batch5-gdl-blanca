@@ -14,11 +14,11 @@ for(i=0; i<=10; i++){
         console.log(`${x} x ${i} = ${x*i}`);
     }  
 }
-for(i=0; i<=100; i++){
-var elBoton=document.createElement('button');
-elBoton.textContent="el texto que se me pegue la gana";
 var elBody=document.getElementsByTagName('body') [0];
-elBody.appendChild(elBoton);
+for(i=0; i<=100; i++){
+    var elBoton=document.createElement('button');
+    elBoton.textContent="el texto que se me pegue la gana";
+    elBody.appendChild(elBoton);
 }
 
 

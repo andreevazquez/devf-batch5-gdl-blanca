@@ -1,7 +1,7 @@
-button:nth-child(odd) {
-    background:orange;
+button{
+    background:green;
 }
 
 button:nth-child(even) {
-    background:green;
+    background:orange;
 }
