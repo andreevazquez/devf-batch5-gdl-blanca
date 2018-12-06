@@ -15,6 +15,8 @@ for(i=0; i<=10; i++){
     }  
 }
 var elBody=document.getElementsByTagName('body') [0];
+
+
 for(i=0; i<=100; i++){
     var elBoton=document.createElement('button');
     elBoton.textContent="el texto que se me pegue la gana";
