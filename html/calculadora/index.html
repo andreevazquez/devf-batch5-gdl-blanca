@@ -14,12 +14,12 @@
 <body>
     <div class="calc">
         <div class="top">
-            <h3 id="pantalla">0</h3>
+            <h3 id="pantalla"></h3>
         </div>
         <div class="container">
             <div class="row">
                 <div class="col">
-                    <button class="operador">
+                    <button onclick="borrar()" class="operador">
                         <i class="fas fa-redo"></i>
                     </button>
                 </div>
@@ -29,12 +29,12 @@
                     </button>
                 </div>
                 <div class="col">
-                    <button class="operador">
+                    <button onclick="guardar('/')" class="operador">
                         <i class="fas fa-divide"></i>
                     </button>
                 </div>
                 <div class="col">
-                    <button class="operador">
+                    <button onclick="guardar('*')" class="operador">
                         <i class="fas fa-times"></i>
                     </button>
                 </div>
@@ -42,16 +42,16 @@
             </div>
             <div class="row">
                 <div class="col">
-                    <button>7</button>
+                    <button onclick="muestraValor(7)">7</button>
                 </div>
                 <div class="col">
-                    <button>8</button>
+                    <button onclick="muestraValor(8)">8</button>
                 </div>
                 <div class="col">
-                    <button>9</button>
+                    <button onclick="muestraValor(9)">9</button>
                 </div>
                 <div class="col">
-                    <button class="operador">
+                    <button onclick="guardar('-')" class="operador">
                         <i class="fas fa-minus"></i>
                     </button>
                 </div>
@@ -59,16 +59,16 @@
             </div>
             <div class="row">
                 <div class="col">
-                    <button>4</button>
+                    <button onclick="muestraValor(4)">4</button>
                 </div>
                 <div class="col">
-                    <button>5</button>
+                    <button onclick="muestraValor(5)">5</button>
                 </div>
                 <div class="col">
-                    <button>6</button>
+                    <button onclick="muestraValor(6)">6</button>
                 </div>
                 <div class="col">
-                    <button class="operador">
+                    <button onclick="guardar('+')" class="operador">
                         <i class="fas fa-plus"></i>
                     </button>
                 </div>
@@ -77,26 +77,26 @@
                 <div class="col-9 container no-padding">
                     <div class="row">
                         <div class="col-4">
-                            <button>1</button>
+                            <button onclick="muestraValor(1)">1</button>
                         </div>
                         <div class="col-4">
-                            <button>2</button>
+                            <button onclick="muestraValor(2)">2</button>
                         </div>
                         <div class="col-4">
-                            <button>3</button>
+                            <button onclick="muestraValor(3)">3</button>
                         </div>
                     </div>
                     <div class="row">
                         <div class="col-8">
-                            <button>0</button>
+                            <button onclick="muestraValor(0)">0</button>
                         </div>
                         <div class="col-4">
-                            <button>.</button>
+                            <button onclick="muestraValor('.')">.</button>
                         </div>
                     </div>
                 </div>
                 <div class="col">
-                    <button class="doble-altura orange">
+                    <button onclick="igualA()"class="doble-altura orange">
                         <i class="fas fa-equals"></i>
                     </button>
                 </div>
