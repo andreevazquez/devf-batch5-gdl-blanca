@@ -58,6 +58,6 @@ function multi(a,b){
 function dividir(a,b){
     return a/b.toFixed(5);
 }
-function raiz (a){
+function raiz (a){      º
     return Math.sqrt(a).toFixed(5);
 }
