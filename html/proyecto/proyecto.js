@@ -1,10 +1,10 @@
-var audio2;
+var audio;
 
-audio2 = document.getElementById("audio");
+audio = document.getElementById("audio");
 
 function reproducirAudio(){
-    audio2.play();    
+    audio.play();    
  }
 function stopAudio(){
-    audio2.pause();
+    audio.pause();
  }
