@@ -5,73 +5,67 @@
             <meta name="viewport" content="width=device-width, initial-scale=1.0">
             <meta http-equiv="X-UA-Compatible" content="ie=edge">
             <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-            <title>XmasSoundBoard</title>
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
+            <title>SoundBoard</title>
             <link rel="stylesheet" href="proyecto.css">
         </head>
         <body>
             <div>
+                <div>
+                    <h1>Fun Sound Board</h1>
+                </div>
             <div id="container" class="container">
                 <div class="row">
                     <div class="col">
-                        <audio id="audio" src="audio/file1.mp3"></audio>
-                        <button id="button" class="btn-lg btn-outline-info" onclick="reproducirAudio()">X</button>
+                        <button id="button" class="btn-lg btn-outline-info" onclick="reproducirAudio('1')">X</button>
                         </div>
                         <div class="col">
-                        <audio id="audio1" src="audio/Dpiano.mp3"></audio>
-                        <button id="button" class="btn-lg btn-outline-primary center-block">X</button>
+                        <button id="button" class="btn-lg btn-outline-primary center-block" onclick="reproducirAudio('2')">X</button>
                         </div>
                         <div class="col">
-                        <audio id="audio2" src="audio/Epiano.mp3"></audio>
-                        <button id="button" class="btn-lg btn-outline-secondary">X</button>
+                        <button id="button" class="btn-lg btn-outline-secondary" onclick="reproducirAudio('3')">X</button>
                         </div>
                        <div class="col">
-                        <audio id="audio3" src="audio/bass-drum.mp3"></audio>
-                        <button id="button" class="btn-lg btn-outline-success">X</button>
+                        <button id="button" class="btn-lg btn-outline-success" onclick="reproducirAudio('4')">X</button>
                     </div>
                     </div>
 
                 <div class="row"> 
                         <div class="col">
-                        <audio id="audio4" src="audio/boing.mp3"></audio>
-                        <button id="button" class="btn-lg btn-outline-warning">X</button>
+                        <button id="button" class="btn-lg btn-outline-warning" onclick="reproducirAudio('5')">X</button>
                         </div>
                         <div class="col">
-                        <audio id="audio5" src="audio/brap.mp3"></audio>
-                        <button id="button" class="btn-lg btn-outline-info">X</button>
+                        <button id="button" class="btn-lg btn-outline-info" onclick="reproducirAudio('6')">X</button>
                         </div>
                         <div class="col">
-                        <audio id="audio6" src="audio/guitar.mp3"></audio>
-                        <button id="button" class="btn-lg btn-outline-light">X</button>
+                        <button id="button" class="btn-lg btn-outline-light" onclick="reproducirAudio('7')">X</button>
                         </div>
                         <div class="col">
-                        <audio id="audio7" src="audio/guitar2.mp3"></audio>
-                        <button id="button" class="btn-lg btn-outline-warning">X</button>
+                        <button id="button" class="btn-lg btn-outline-warning" onclick="reproducirAudio('8')">X</button>
                         </div>
                     </div>
                 <div class="row">
-                        <audio id= "audio"></audio>
                         <div class="col">
-                        <audio id="audio8" src="audio/guitar3.mp3"></audio>
-                        <button id="button" class="btn-lg btn-outline-light">X</button>
+                        <button id="button" class="btn-lg btn-outline-light" onclick="reproducirAudio('9')">X</button>
                         </div>
                         <div class="col">
-                        <audio id="audio9" src="audio/platillos.mp3"></audio>
-                        <button id="button" class="btn-lg btn-outline-dark">X</button>
+                        <button id="button" class="btn-lg btn-outline-dark" onclick="reproducirAudio('10')">X</button>
                         </div>
                         <div class="col">
-                        <audio id="audio10" src="audio/squeaky.mp3"></audio>
-                        <button id="button" class="btn-lg btn-outline-info">X</button>
+                        <button id="button" class="btn-lg btn-outline-info" onclick="reproducirAudio('11')">X</button>
                         </div>
                         <div class="col">
-                        <audio id="audio11" src="audio/stutGun.mp3"></audio>
-                        <button id="button" class="btn-lg btn-outline-danger">X</button>
+                        <button id="button" class="btn-lg btn-outline-danger" onclick="reproducirAudio('12')">X</button>
+                        
                         </div>
                     
                 </div>
                 <div class="row">
                     <div class="col">
-                            <button id="buttonDown" onclick="reproducirAudio()" id="botonReproducir" class="btn btn-primary btn-lg">REPRODUCIR</button>
-                            <button id="buttonDown" onclick="stopAudio()" id="botonAlto" class="btn btn-secondary btn-lg">ALTO</button>
+                            <button id="buttonDown" onclick="grabar()" id="botonReproducir" class="btn btn-danger btn">GRABAR</button>
+                            <button id="buttonDown" onclick="detenerGrabacion()" id="botonAlto" class="btn btn-warning">DETENER GRABACION</button>
+                            <button id="buttonDown" onclick="reproducirSecuencia()" id="botonAlto" class="btn btn-success">REPRODUCIR GRABACION</button>
+                            <button id="buttonDown" onclick="reproducirAudioSecuencia(0)" id="botonAlto" class="btn btn-info">REPRODUCIR GRABACION RECURSIVA</button>
                     </div>
                 </div>
                 </div>

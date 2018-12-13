@@ -4,11 +4,17 @@ body {
     background-position: right top;
     background-attachment: fixed;
   }
+  h1{
+      color:white;
+      text-align: center;
+  }
   #button{
-    padding: 10% 10%;
     font-size: 1.25rem;
     line-height: 10%;
     border-radius: .3rem;
+    border: 1px solid;
+    padding: 10px;
+    box-shadow: 2px 5px #888888;
   }
   #buttonDown{
       margin-left:auto;
@@ -16,10 +22,14 @@ body {
   }
   .row{
     margin-left:auto;
-    margin-right: auto;
-
+    margin-right:auto;
   }
   #container{
       margin-left: auto;
       margin-right: auto;
+  }
+  .col{
+      margin-left: center;
+      margin-right: center;
+
   }
