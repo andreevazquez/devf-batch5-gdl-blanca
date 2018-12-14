@@ -1,16 +1,15 @@
     body {
-        background-image: url(images/download.png);
+        background-image: url(images/Untitled\ 2.001.jpeg);
+        background-position: center;
+        background-color: black;
         background-repeat: no-repeat;
-        background-position: right top;
         background-attachment: fixed;
-        
-        
+        background-size: cover;
     }
     h1{
         font-family: 'Rock Salt', cursive;
         color:orange;
         text-align: center;
-        animation-iteration-count: 1;
     }
     #button:active {
         align-content: center;
