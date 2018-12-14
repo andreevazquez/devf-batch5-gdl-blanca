@@ -16,18 +16,16 @@
         align-content: center;
         font-size: 100%;
         line-height: 100%;
-        width: 100%;
         box-shadow: 2px 5px #888888;
-        padding: 70px;
+        padding: 50px;
     }
     button{
-        margin-left:auto;
-        margin-right: auto;
+       transform:scale(1.5);
     }
   
     #buttonDown{
-        margin-left:auto;
-        margin-right: auto;
+     transform: scale(1);
+     font-family: 'Poppins', sans-serif;
     }
     .row{
         margin-left:12%;
